@@ -1,5 +1,26 @@
-.test {
-  height: 300px;
-  width: 100%;
-  color: $primary-color-test;
+.header {
+  background-color: $color-basic-light;
+
+  .headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logoWrapper {
+      height: 64px;
+      width: 64px;
+
+      svg {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .loginBtn {
+      @include button($color-accent-blue, $color-basic-light);
+
+      height: 42px;
+      width: 80px;
+    }
+  }
 }

@@ -1,0 +1,134 @@
+//Page wrapper
+.contentWrapper {
+  margin: 0 auto;
+  padding: 0 8px;
+  max-width: 100%;
+
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+
+  @media (min-width: 768px) {
+    padding: 0 16px;
+    max-width: 720px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+
+  @media (min-width: 1400px) {
+    max-width: 1320px;
+  }
+}
+
+//Fonts
+@font-face {
+  font-family: "Proxima";
+  src: url("../assets/fonts/Proxima/ProximaNovaRegular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima";
+  src: url("../assets/fonts/Proxima/ProximaNovaRegularItalic.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Proxima";
+  src: url("../assets/fonts/Proxima/ProximaNovaLight.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima";
+  src: url("../assets/fonts/Proxima/ProximaNovaLightItalic.otf")
+    format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Proxima";
+  src: url("../assets/fonts/Proxima/ProximaNovaThin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima";
+  src: url("../assets/fonts/Proxima/ProximaNovaThinItalic.otf")
+    format("opentype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Proxima";
+  src: url("../assets/fonts/Proxima/ProximaNovaBold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima";
+  src: url("../assets/fonts/Proxima/ProximaNovaBoldItalic.otf")
+    format("opentype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Proxima";
+  src: url("../assets/fonts/Proxima/ProximaNovaBlack.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima";
+  src: url("../assets/fonts/Proxima/ProximaNovaBlackItalic.otf")
+    format("opentype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Proxima";
+  src: url("../assets/fonts/Proxima/ProximaNovaSemibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima";
+  src: url("../assets/fonts/Proxima/ProximaNovaSemiboldItalic.otf")
+    format("opentype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Proxima";
+  src: url("../assets/fonts/Proxima/ProximaNovaExtrabold.otf")
+    format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima";
+  src: url("../assets/fonts/Proxima/ProximaNovaExtraboldItalic.otf")
+    format("opentype");
+  font-weight: 800;
+  font-style: italic;
+}
