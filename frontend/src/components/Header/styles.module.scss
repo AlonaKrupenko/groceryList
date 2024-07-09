@@ -18,9 +18,7 @@
 
     .loginBtn {
       @include button($color-accent-blue, $color-basic-light);
-
-      height: 42px;
-      width: 80px;
+      min-width: 80px;
     }
   }
 }

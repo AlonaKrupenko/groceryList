@@ -6,9 +6,33 @@
   border: 1px solid $bg-color;
   cursor: pointer;
   transition: all 0.3s ease;
+  height: 42px;
+  width: auto;
 
   &:hover {
     background-color: darken($bg-color, 10%);
+  }
+}
+
+@mixin input($main-color, $text-color, $active-color) {
+  padding: 0 8px;
+  border-radius: 4px;
+  border: 1px solid $main-color;
+  cursor: pointer;
+  height: 42px;
+  width: 100%;
+  font-size: 14px;
+  color: $text-color;
+
+  &::placeholder {
+    color: $color-basic-dark;
+    opacity: 0.5;
+  }
+
+  &:focus,
+  &:focus-visible {
+    border: 1px solid $active-color;
+    outline: none;
   }
 }
 

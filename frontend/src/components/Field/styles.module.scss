@@ -1,0 +1,15 @@
+.label {
+  margin-bottom: 8px;
+  display: flex;
+
+  .required {
+    color: var(--error-text-color);
+    margin-left: 4px;
+  }
+}
+
+.errorText {
+  margin-top: 4px;
+  color: var(--error-text-color);
+  font-size: 12px;
+}
